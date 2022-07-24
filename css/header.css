@@ -1,0 +1,30 @@
+
+header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 0px 10px 35px;
+}
+.nav{
+    list-style: none;
+    width: 300px;
+    font-size: 17px;
+    font-family: Copperplate / Copperplate Gothic Light, sans-serif;
+    
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+}
+header:hover{
+    background-color: antiquewhite;
+    transition: 0.5s;
+}
+.bt_Inicio, .bt_Registro{
+    color:black;
+    font-weight: bold;
+}
