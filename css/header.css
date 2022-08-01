@@ -1,4 +1,9 @@
-
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+}
 header{
     display: flex;
     flex-direction: row;
@@ -11,7 +16,6 @@ header{
     width: 300px;
     font-size: 17px;
     font-family: Copperplate / Copperplate Gothic Light, sans-serif;
-    
     
     display: flex;
     flex-direction: row;

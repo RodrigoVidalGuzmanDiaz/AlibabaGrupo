@@ -1,4 +1,4 @@
-let category =[
+export let category =[
     /*ID_de_usuario*/ /*numero_tarjeta_de_credito*/
     [4000,          'Laptops'],
     [4100,          'Mobile phones'],
