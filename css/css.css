@@ -1,4 +1,10 @@
-
+html{
+    background-image: url("https://blog.caixa-enginyers.com/wp-content/uploads/2017/08/BAT-Ingenieros-Fondos-1200x800.jpg");
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+    font-family: 'Quicksand', sans-serif;
+}
 .iniciaformu{
     width: 400px;
     height: 500px;
@@ -97,7 +103,7 @@ h2{
     width: 100%;
     height: 6rem;
     display: block;
-    background-color: aqua;
+
 }
 .mostrar{
     display: flex;
@@ -113,9 +119,335 @@ h2{
 nav{
     width: 100%;
     height: 6rem;
-    background-color: orange;
+    
 }
 .bt_Inicio, .bt_Registro{
     color:black;
     font-weight: bold;
+}
+
+/********************************************************/
+/*SEGUNTA VENTANA DE LA PÁG*/
+
+.header{
+    width: auto;
+    height: 3.8rem;
+    background-color: antiquewhite;
+}
+.contenido{ /*ESPACIO DE VISUALIZACIÓN Y PANEL*/
+    width: auto;
+    height: 38.5rem;
+    margin: 1.5% 2%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Panel{
+    width: auto;
+    height: 100%;
+    margin: 0% 1%;
+    margin-top: -1.1%;
+}
+.Panel div{ /*BOTONES DE CATEGORÍAS*/
+    width: auto;
+    height: 2rem;
+
+    background-color: rgb(184, 179, 169);
+        box-shadow:4px 4px 15px 1px #808080;
+    -moz-box-shadow:4px 4px 15px 1px #808080;
+    -webkit-box-shadow:4px 4px 15px 1px #808080;
+
+    border-radius: 3px;
+    margin-top: 1rem;
+    padding: 1.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.visualizacion{ /*CAJA DE VISUALIZACIÓN*/
+    background-color: rgba(136 140 165 / 36%);
+    box-shadow:4px 4px 15px 1px #808080;
+    -moz-box-shadow:4px 4px 15px 1px #808080;
+    -webkit-box-shadow:4px 4px 15px 1px #808080;
+
+    width: 100%;
+    height: auto;
+
+    border-radius: 3px;
+    border: 0.1rem solid rgb(251, 247, 247);
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow-y: scroll;
+}
+.color{
+    background-color: #c2b4a5c6;  
+    box-shadow:4px 4px 15px 1px #808080;
+    -moz-box-shadow:4px 4px 15px 1px #808080;
+    -webkit-box-shadow:4px 4px 15px 1px #808080;
+}
+.resaltado{
+    background-color: #aca196;
+    width: 85%;
+}
+.opcionCarts_has_products{
+    width: 23rem;
+    height: 15rem;   
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+
+}
+.opcionCarts_has_products div {
+    display: flex;
+    width: 85%;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    flex-direction: column;
+    font-weight: 900;
+
+}
+.opcionCategory{
+    width: 24rem;
+    height: 10rem;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+.opcionCategory div{
+    font-weight: 900;
+    margin: 5px 3px;
+    margin-right: 5px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    width: 85%;
+}
+.opcionOption{
+    width: 26rem;
+    height: 10rem;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:1rem;
+}
+.opcionOption div{
+    font-weight: 900;
+    margin-right: 5px;
+    margin-bottom: 3px;
+    margin-top: 3px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    width: 85%;
+
+}
+.opcionOrder_has_products{
+    width: 20rem;
+    height: 12rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    margin-top: 20px;
+
+}
+.opcionOrder_has_products div{
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    width: 85%;
+    margin-right: 5px;
+    margin-bottom: 3px;
+}
+.opcionOrder_placed_user{
+    margin-top: 20px;
+    width: 33rem;
+    height: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.opcionOrder_placed_user div{
+    font-weight: 900;
+    margin-right: 5px;
+    margin-bottom: 3px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    width: 85%;
+}
+.opcionOrder{
+    margin-top: 20px;
+    width: 33rem;
+    height: auto;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.opcionOrder div{
+    font-weight: 900;
+    margin-right: 5px;
+    margin-bottom: 3px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    width: 85%;
+}
+.opcionOrders_paid_creditcard{
+    margin-top: 20px;
+    width: 33rem;
+    height: auto;
+    padding: 5%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.opcionOrders_paid_creditcard div{
+    font-weight: 900;
+    margin-right: 5px;
+    margin-bottom: 3px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    width: 85%;
+}
+.opcionProducts_belong_category{
+    margin-top: 20px;
+    width: 33rem;
+    height: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.opcionProducts_belong_category div{
+    font-weight: 900;
+    margin-right: 5px;
+    margin-bottom: 3px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    width: 85%;
+}
+.opcionProducts_has_options{
+    margin-top: 20px;
+    width: 33rem;
+    height: auto;   
+    padding: 5%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.opcionProducts_has_options div{
+    font-weight: 900;
+    margin-right: 5px;
+    margin-bottom: 3px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    width: 85%;
+}
+.opcionProducts_sold_vendor{
+    margin-top: 20px;
+    width: 25rem;
+    height: 6rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.opcionProducts_sold_vendor div{
+    font-weight: 900;
+    margin-right: 5px;
+    margin-bottom: 3px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    width: 85%;
+}
+.opcionProducts{
+    margin-top: 20px;
+    width: 33rem;
+    height: auto;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.opcionProducts div{
+    font-weight: 900;
+    margin-right: 5px;
+    margin-bottom: 3px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    width: 85%;
+
+}
+.opcionShopping{
+    margin-top: 20px;
+    width: 27rem;
+    height: 11rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.opcionShopping div{
+    font-weight: 900;
+    margin-bottom: 3px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    width: 85%;
+
+}
+.resaltado1{
+    margin-right: 3rem;
+    background-color: #aca196;
+    width: 90%;
+
 }
