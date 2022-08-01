@@ -1,4 +1,4 @@
-let products_has_options = [
+export let products_has_options = [
     /*ID_del_producto*/ /*ID_de_la_opcion*/  /*cantidad*/  /*precio*/  /*en_venta*/ /*especificaciones*/
     [1200,              1201,                   3,          1299,       1,          'Macbook Pro 13.3-inch (diagonal) LED-backlit display with IPS technology; 2560-by-1600 native resolution at 227 pixels'],
     [1200,              1202,                   2,          2199,       0,          'Macbook Pro 15.4-inch (diagonal) LED-backlit display with IPS technology; 2880-by-1800 native resolution at 220 pixels'],

@@ -1,4 +1,4 @@
-let orders_paid_creditcard = [
+export let orders_paid_creditcard = [
     /*numero_de_tarjeta_de_credito*/    /*ID_de_la_orden*/
     ['2.56324E+15',                     1000],
     ['1.35632E+15',                     1001],

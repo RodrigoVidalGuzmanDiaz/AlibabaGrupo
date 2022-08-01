@@ -1,4 +1,4 @@
-let carts =[
+export let carts =[
     /*identificación_del_carrito_de_compras*/   /*ID_del_producto*/ /*ID_de_la_opción*/ /*cantidad*/
     [3000,                                      1200,                   1201,               2],
     [3000,                                      1200,                   1202,               1],

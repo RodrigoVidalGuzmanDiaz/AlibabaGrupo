@@ -1,4 +1,4 @@
-let vendor = [
+export let vendor = [
     /*ID_del_proveedor*/   /*nombre_del_proveedor*/ /*numero_del_proveedor*/    /*correo_del_proveedor*/
     [5000,                 'Apple',                 '2569561656',               'apple@gmail.com'],
     [5100,                 'Microsoft',             '6165486561',               'microsoft@gmail.com'],

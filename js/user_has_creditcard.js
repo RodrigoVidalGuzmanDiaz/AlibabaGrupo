@@ -1,4 +1,4 @@
-let user_has_creditcard = [
+export let user_has_creditcard = [
     /*ID_del_usuario*/  /*numero_de_tarjeta_de_credito*/
     [100,                   '2.56324E+15'],
     [101,                   '1.35632E+15'],

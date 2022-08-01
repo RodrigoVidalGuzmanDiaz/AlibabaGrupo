@@ -1,4 +1,4 @@
-let product_sold_vendor = [
+export let product_sold_vendor = [
     /*ID_Proveedor*/    /*ID_del_producto*/
     [5000,              1200],
     [5000,              1300],

@@ -1,4 +1,4 @@
-let option =[
+export let option =[
     /*ID de la opción*/  /*nombre_de_la_opcion*/
      [1201,              'Macbook Pro 13.3-inch'],
      [1202,              'Macbook Pro 15.4-inch'],

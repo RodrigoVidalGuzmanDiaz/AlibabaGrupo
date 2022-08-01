@@ -1,4 +1,4 @@
-let orders_placed_user = [
+export let orders_placed_user = [
     /*ID_del_usuario*/ /*ID_de_la_orden*/
     [100,               1000],
     [101,               1001],

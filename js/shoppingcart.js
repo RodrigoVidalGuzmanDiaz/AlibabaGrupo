@@ -1,4 +1,4 @@
-let shoppingcart = [
+export let shoppingcart = [
     /*ID_del_carrito_de_compras*/   /*estado*/
     [3000,                          1],
     [3100,                          1],
