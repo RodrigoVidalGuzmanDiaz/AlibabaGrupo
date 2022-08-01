@@ -1,4 +1,4 @@
-let order_has_products = [
+export let order_has_products = [
     /*ID_de_la_orden*/  /*ID_del_producto*/ /*ID de la opción*/ /*cantidad*/
     [1000,                  1200,               1201,               2],
     [1000,                  1200,               1202,               1],

@@ -1,4 +1,4 @@
-let products_belong_category = [
+export let products_belong_category = [
     /*ID_del_producto*/ /*ID_de_la_categoria*/
     [1200,              4000],
     [1300,              4000],

@@ -1,4 +1,8 @@
-
+html{
+    background-image: url("https://blog.caixa-enginyers.com/wp-content/uploads/2017/08/BAT-Ingenieros-Fondos-1200x800.jpg");
+    background-size: cover;
+    font-family: 'Quicksand', sans-serif;
+}
 .iniciaformu{
     width: 400px;
     height: 500px;
@@ -97,7 +101,7 @@ h2{
     width: 100%;
     height: 6rem;
     display: block;
-    background-color: aqua;
+
 }
 .mostrar{
     display: flex;
@@ -113,9 +117,257 @@ h2{
 nav{
     width: 100%;
     height: 6rem;
-    background-color: orange;
+    
 }
 .bt_Inicio, .bt_Registro{
     color:black;
     font-weight: bold;
+}
+
+/********************************************************/
+.header{
+    width: auto;
+    height: 3rem;
+    background-color: blueviolet;
+}
+.contenido{
+    width: auto;
+    height: 50rem;
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Panel{
+    width: auto;
+    height: 100%;
+}
+.Panel div{
+    width: auto;
+    height: 2rem;
+    border: 0.1rem solid black;
+    background-color: aquamarine;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+.visualizacion{
+    background-color: rgba(136 140 165 / 36%);
+    width: 100%;
+    height: auto;
+
+    border: 0.1rem solid black;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow-y: scroll;
+}
+.opcionCarts_has_products{
+    width: 23rem;
+    height: 15rem;
+    background-color: burlywood;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.opcionCarts_has_products div{
+    display: flex;
+    width: 85%;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid;
+    flex-direction: column;
+}
+.opcionCategory{
+    width: 26rem;
+    height: 10rem;
+    background-color: #FFFFFF;
+    background-image: linear-gradient(315deg, #FFFFFF 0%, #7c95ec 50%, #dd5959 100%);    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.opcionCategory div{
+  
+    font-weight: 900;
+    display: flex;
+    width: 85%;
+    border: 1px solid;
+}
+.opcionOption{
+    width: 26rem;
+    height: 10rem;
+    background-color: #7190ae;
+    background-image: linear-gradient(43deg, #7190ae 0%, #d774d1 46%, #bcad93 100%);    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.opcionOption div{
+    font-weight: 900;
+    display: flex;
+    width: 85%;
+    border: 1px solid;
+
+}
+.opcionOrder_has_products{
+    width: 33rem;
+    height: 12rem;
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.opcionOrder_has_products div{
+    font-weight: 900;
+    display: flex;
+    width: 85%;
+    border: 1px solid;
+}
+.opcionOrder_placed_user{
+    width: 33rem;
+    height: 6rem;
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.opcionOrder_placed_user div{
+    font-weight: 900;
+    display: flex;
+    width: 85%;
+    border: 1px solid;
+}
+.opcionOrder{
+    width: 33rem;
+    height: 27rem;
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.opcionOrder div{
+    font-weight: 900;
+    display: flex;
+    width: 85%;
+    border: 1px solid;
+}
+.opcionOrders_paid_creditcard{
+    width: 33rem;
+    height: 8rem;
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.opcionOrders_paid_creditcard div{
+    font-weight: 900;
+    display: flex;
+    width: 85%;
+    border: 1px solid;
+}
+.opcionProducts_belong_category{
+    width: 33rem;
+    height: 8rem;
+    background-color: #FAACA8;
+    background-image: linear-gradient(19deg, #6a6464 0%, #DDD6F3 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.opcionProducts_belong_category div{
+    font-weight: 900;
+    display: flex;
+    width: 85%;
+    border: 1px solid;
+}
+.opcionProducts_has_options{
+    width: 33rem;
+    height: 16rem;
+    background-color: #FAACA8;
+    background-image: linear-gradient(19deg, #6a6464 0%, #DDD6F3 100%);    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.opcionProducts_has_options div{
+    font-weight: 900;
+    display: flex;
+    width: 85%;
+    border: 1px solid;
+}
+.opcionProducts_sold_vendor{
+    width: 25rem;
+    height: 6rem;
+    background-color: #FAACA8;
+    background-image: linear-gradient(19deg, #6a6464 0%, #DDD6F3 100%);    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.opcionProducts_sold_vendor div{
+    font-weight: 900;
+    display: flex;
+    width: 85%;
+    border: 1px solid;
+}
+.opcionProducts{
+    width: 33rem;
+    height: 27rem;
+    background-color: #00DBDE;
+    background-image: linear-gradient(212deg, #00DBDE 0%, #c99dc9 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.opcionProducts div{
+    font-weight: 900;
+    display: flex;
+    width: 85%;
+    border: 1px solid;
+
+}
+.opcionShopping{
+    width: 35rem;
+    height: 12rem;
+    background-color: #74EBD5;
+    background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.opcionShopping div{
+    font-weight: 900;
+    display: flex;
+    width: 85%;
+    border: 1px solid;
+
 }
