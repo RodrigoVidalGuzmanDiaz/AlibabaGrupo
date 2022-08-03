@@ -2,8 +2,8 @@ import {login} from "./login.js"
 
 
 import {crear} from "./header.js"
-crear();
 
+crear();
 
 
 function recuperar_datos(e) {
