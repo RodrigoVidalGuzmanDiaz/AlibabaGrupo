@@ -20,7 +20,7 @@ html{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 10px 0px 10px 35px;
+
 }
 .iniciaformu{
     width: 400px;
@@ -144,11 +144,7 @@ nav{
 /********************************************************/
 /*SEGUNTA VENTANA DE LA PÁG*/
 
-.header{
-    width: auto;
-    height: 3.8rem;
-    background-color: antiquewhite;
-}
+
 .contenido{ /*ESPACIO DE VISUALIZACIÓN Y PANEL*/
     width: auto;
     height: 38.5rem;
