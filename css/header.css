@@ -1,10 +1,13 @@
+
 *{
     margin: 0px;
     padding: 0px;
     text-decoration: none;
     box-sizing: border-box;
 }
-header{
+
+.principal{
+
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -17,6 +20,7 @@ header{
     font-size: 17px;
     font-family: Copperplate / Copperplate Gothic Light, sans-serif;
     
+    margin-left: 2rem;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -24,11 +28,51 @@ header{
     align-items: center;
     color: black;
 }
-header:hover{
+.principal:hover{
     background-color: antiquewhite;
     transition: 0.5s;
 }
-.bt_Inicio, .bt_Registro{
+.bt_Inicio, .bt_Registro, .salir{
     color:black;
     font-weight: bold;
+}
+.name{
+    margin-left: 2rem;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+}
+.nav2{
+    list-style: none;
+    width: 300px;
+    font-size: 17px;
+    /* margin-top: -3rem; */
+    /* margin-left: 64rem; */
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+}
+.nombre1{
+    font-size: 35px;
+}
+.nav3{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 0px 10px 35px;
+    margin-top: -0.9rem;
+    margin-left: -2.5rem;
+   
+}
+.noFlex{
+    display: none;
 }

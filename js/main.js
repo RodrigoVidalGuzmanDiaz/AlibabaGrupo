@@ -1,6 +1,10 @@
 import {login} from "./login.js"
 
 
+import {crear} from "./header.js"
+
+
+
 
 function recuperar_datos(e) {
     e.preventDefault(); //<-- Evita que el formulario se recargue

@@ -1,3 +1,4 @@
+
 html{
     background-image: url("https://blog.caixa-enginyers.com/wp-content/uploads/2017/08/BAT-Ingenieros-Fondos-1200x800.jpg");
     background-size: cover;
@@ -5,11 +6,27 @@ html{
     background-repeat: no-repeat;
     font-family: 'Quicksand', sans-serif;
 }
+.bloque2{
+    display: block;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 0px 10px 35px;
+}
+.bloque{
+   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 0px 10px 35px;
+}
 .iniciaformu{
     width: 400px;
     height: 500px;
     background-color: rgb(95, 113, 97, 0.5);
-    margin-top: 2.5rem;
+    margin-top: 4rem;
     margin-left: 2rem;
     border-radius: 30px;
 }

@@ -1,7 +1,9 @@
 /** LIBRERIAS**/
 export var section_administrador = document.getElementById("section_administrador");
 export var section_login = document.getElementById("section_login");
-export var header =  document.getElementById('header')
+export var header =  document.getElementById('header');
+
+export var headerPanel = document.getElementById('headerPanel');
 
 
 export var inputPassword = document.getElementById("password")
