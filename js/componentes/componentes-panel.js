@@ -47,7 +47,6 @@ export let root = document.getElementById('rootVisualizacion')
    export let opcionS = document.getElementById('opcionShopping');
     
 
-
 export function Informacion(){
 
    

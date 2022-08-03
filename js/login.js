@@ -3,7 +3,7 @@ export var section_administrador = document.getElementById("section_administrado
 export var section_login = document.getElementById("section_login");
 export var header =  document.getElementById('header');
 
-export var headerPanel = document.getElementById('headerPanel');
+export let header2 = document.getElementById('header2')
 
 
 export var inputPassword = document.getElementById("password")
@@ -24,6 +24,7 @@ export function verContraseña(){
 
 import {nav} from './componentes/Componentes-login.js';
 import {form} from './componentes/Componentes-login.js';
+
 
 import {Informacion} from './componentes/componentes-panel.js';
 

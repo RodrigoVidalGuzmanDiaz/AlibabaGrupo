@@ -1,3 +1,5 @@
+
+
 export let nav = document.getElementById('navUl')
 nav.innerHTML = 
 '<li>'+ '<a class="bt_Inicio" href="index.html">'+ 'Iniciar sesión'  +  '</a>'+ '</li>'

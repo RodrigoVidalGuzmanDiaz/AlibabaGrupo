@@ -110,9 +110,7 @@ h2{
 .activar-flex{
     display: flex !important;
 }
-.desactivar{
-    display: none;
-}
+
 .section_login{
     display: none;
 }

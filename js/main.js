@@ -2,7 +2,7 @@ import {login} from "./login.js"
 
 
 import {crear} from "./header.js"
-
+crear();
 
 
 
